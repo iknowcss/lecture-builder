@@ -1,17 +1,35 @@
 {
-    "name": "lecture-builder",
-    "version": "0.0.1",
     "private": true,
-    "author": "iknowCSS <cody.jenkins@iknowcss.com>",
-    "contributors": [
-        {
-            "name": "Cody Jenkins",
-            "email": "cody.jenkins@iknowcss.com"
-        }
-    ],
-    "dependencies": {
-        "marked": "0.2.9"
+    "name":    "lecture-builder",
+    "version": "0.0.1",
+    
+    "author": {
+        "name":  "Cody Jenkins",
+        "email": "cody.jenkins@iknowcss.com",
+        "url":   "http://www.iknowcss.com/"
     },
+    
     "repository": "https://github.com/iknowcss/lecture-builder",
-    "main": "index"
+    
+    "bin": {
+        "lecture-builder": "./bin/lecture-builder"
+    },
+
+    "scripts": {
+        
+    },
+
+    "main": "./src/lecture-builder.js",
+
+    "dependencies": {
+        "marked":       "0.2.9",
+        "underscore":   "1.5.1",
+        "highlight.js": "7.3.0"
+    },
+
+    "files": [
+        "src",
+        "bin"
+    ]
+    
 }
