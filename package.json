@@ -1,0 +1,17 @@
+{
+    "name": "lecture-builder",
+    "version": "0.0.1",
+    "private": true,
+    "author": "iknowCSS <cody.jenkins@iknowcss.com>",
+    "contributors": [
+        {
+            "name": "Cody Jenkins",
+            "email": "cody.jenkins@iknowcss.com"
+        }
+    ],
+    "dependencies": {
+        "marked": "0.2.9"
+    },
+    "repository": "https://github.com/iknowcss/lecture-builder",
+    "main": "index"
+}
